@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+
+.header-section {
+   background-image: url(Minimalist\ Modern\ Food\ Photo\ Collage\ Instagram\ Post.png);
+    background-position: center;
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.h1-tag {
+    font-size: 70px;
+    margin-left: 40px;
+}
+
+.p-tag {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.h1-tag1 {
+    text-align: center;
+}
+
+.castom {
+    margin: 7px;
+    margin-top: 10px !important;
+    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5 ease;
+}
+
+.castom:hover{
+    transform: translate(-10px);
+}
+
+
+  .review-custom{
+      
+      padding: 20px;
+  }
+  .review-custom img{
+      margin-bottom: 20px;
+     height: 100px;
+     width: 100px;
+      border-radius: 60px;
+      object-fit: cover;
+  }
+
+  .text {
+    font-weight: 600;
+  }
+
+  .castom-1 {
+    margin-left: 130px;
+    margin-top: -80px;
+    
+  }
+
+  .custom-2{
+    margin-top: 50px;
+  }
