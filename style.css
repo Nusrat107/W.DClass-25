@@ -64,15 +64,15 @@ body{
         width: 270px !important;
     }
 
-  .castom-1 {
+  /* .castom-1 {
     margin-left: 130px;
     margin-top: -80px;
     
-  }
+  } */
 
-  .custom-2{
+  /* .custom-2{
     margin-top: 50px;
-  }
+  } */
 
   .button {
     font-size: 30px !important;
@@ -330,16 +330,22 @@ font-weight: 600;
 }
 @media screen and (max-width: 339px) {
     .hero-1{
-        font-size: 15px !important;
-        margin-left: 20px !important;
+        font-size: 10px !important;
+        margin-left: -20px !important;
     }
 }
 /* button-responsive */
 
-@media screen and (max-width: 1133) {
+@media screen and (max-width: 1199px) {
     .button{
-        font-size: 25px !important;
-        margin-right: 180px !important;
+        font-size: 20px !important;
+        margin-left: 130px !important;
+    }
+}
+@media screen and (max-width: 951px) {
+    .button{
+        font-size: 20px !important;
+        margin-left: 90px !important;
     }
 }
 
@@ -347,9 +353,73 @@ font-weight: 600;
 
 
 /* card */
-@media screen and (max-width: 659px) {
+@media screen and (max-width: 1199px) {
     .castom{
-        width: 50px !important;
+        width: 220px !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .castom{
+        width: 220px !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .castom{
+        width: 250px !important;
+    }
+}
+@media screen and (max-width: 525px) {
+    .castom{
+        width: 230px !important;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 513px) {
+    .castom{
+        width: 220px !important;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 494px) {
+    .castom{
+        width: 210px !important;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 473px) {
+    .castom{
+        width: 200px !important;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 453px) {
+    .castom{
+        width: 190px !important;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 433px) {
+    .castom{
+        width: 290px !important;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 373px) {
+    .castom{
+        width: 290px !important;
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 335px) {
+    .castom{
+        width: 290px !important;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 325px) {
+    .castom{
+        width: 290px !important;
+        margin-left: 20px;
     }
 }
 
