@@ -60,6 +60,10 @@ body{
     font-weight: 600;
   }
 
+    .castom{
+        width: 270px !important;
+    }
+
   .castom-1 {
     margin-left: 130px;
     margin-top: -80px;
@@ -330,5 +334,25 @@ font-weight: 600;
         margin-left: 20px !important;
     }
 }
+/* button-responsive */
+
+@media screen and (max-width: 1133) {
+    .button{
+        font-size: 25px !important;
+        margin-right: 180px !important;
+    }
+}
+
+
+
+
+/* card */
+@media screen and (max-width: 659px) {
+    .castom{
+        width: 50px !important;
+    }
+}
+
+
 
 
